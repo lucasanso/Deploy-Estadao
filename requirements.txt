@@ -1,0 +1,6 @@
+beautifulsoup4
+unidecode
+pandas
+pytz
+requests
+streamlit
