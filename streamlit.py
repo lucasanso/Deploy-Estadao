@@ -22,7 +22,7 @@ try:
     # Filtro usando a coluna 'title' (que é a correta agora)
     if busca:
         # Procuramos na coluna 'title'
-        df_filtrado = df[df['title'].str.contains(busca, case=False, na=False)]
+        df_filtrado = df[df['keyword'].str.contains(busca, case=False, na=False)]
     else:
         df_filtrado = df
 
