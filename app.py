@@ -1,4 +1,4 @@
-from misc.parser_estadao import EstadaoSpider
+from parser_estadao import EstadaoSpider
 
 # -------------------------------------------------------------------------------- #
 # BLOCO DE TESTE DO SPIDER
